@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+
+}
+main{
+  flex: 1;
+}
+nav {
+  background-color: #393737;
+  padding: 10px 0;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+#img1{
+    margin-right: 100px;
+
+}
+a { 
+  display: block;
+  top: 25%;
+  padding: 15px 22px;
+  text-decoration: none;
+  color: rgb(150, 153, 168);
+  
+}
+a:hover {
+  transform: scale(1.10);
+  color: #ccc;
+  transition: 0.4s;
+
+}
+
+.active {
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+ #img1{
+  display: none;
+ }
+
+ a{
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+ }
+  .footer-cont {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+}
+main p{
+  font-family: "Tinos", serif;
+  font-weight: 600;
+}
+footer{
+  background-color: rgb(16, 15, 15);
+  padding: 20px 0;
+  
+}
+.logos{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+
+}
+
+
+footer p{
+  color: rgb(170, 166, 166);
+}.service-card {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.premium-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.vip-img {
+  width: 50px;
+  height: auto;
+}
+
+
+.premium-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.premium-list li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+footer img{
+  border-radius: 10px;
+}
+.register {
+  background: linear-gradient(135deg, #6a5acd, #836fff);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  box-shadow: 0 8px 20px rgba(106, 90, 205, 0.4);
+}
+
+.register:hover {
+  background: linear-gradient(135deg, #836fff, #6a5acd);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(106, 90, 205, 0.6);
+}
+
+.register:active {
+  transform: scale(0.97);
+}
